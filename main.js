@@ -1,14 +1,15 @@
-var menu = $(".hamburger-menu");
-
-var visible = false;
-menu.click(
-  function () {
-    if(visible == false) {
-      $('ul').fadeIn();
-      visible = true;
-    } else {
-      $('ul').fadeOut();
-      visible = false;
-    }
+// var hambMenuShow = false;
+// $('.header-right .fas.fa-bars').on('click', function() {
+//   if (!hambMenuShow) $('.hamburger-menu').show();
+//   else $('.hamburger-menu').hide();
+// }
+// );
+// $('.fas.fa-times').on('click', function() {
+//   $('.hamburger-menu').hide();
+// }
+// );
+$('.fas.fa-bars').click (
+  function(){
+    $('.hamburger-menu').show()
   }
-);
+)
